@@ -1,0 +1,45 @@
+- !<AssetImportMetadata/cd337326-a7e6-4944-a473-8a4fe655e8fb>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> 57db8d04-e483-4a39-ba9f-c4514e5c9c00
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> 57db8d04-e483-4a39-ba9f-c4514e5c9c00
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> 38f91cda-cc03-43ae-bbcd-64a1853ecf28
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/38f91cda-cc03-43ae-bbcd-64a1853ecf28>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  InternalVersion: 0
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 54c979c9-d017-4f1a-a6e2-4678da9e03f0
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  CurrentVisibility: Editable
+  MaxVisibility: Editable
+  ScriptInputsHidden:
+    modelsParent: false
+    pbrMaterialHolder: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  DefaultScriptInputs:
+    - modelsParent: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      pbrMaterialHolder: !<reference.Material> 00000000-0000-0000-0000-000000000000
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - // @input SceneObject modelsParent
+    - // @input Asset.Material pbrMaterialHolder
